@@ -1,5 +1,7 @@
 # Gyrocube PCB design
 
+Project is ongoing.
+
 ## Concept description 
 
 GyroCube is a Smart-Home accessory. The GyroCube is a multipurpose cube that can perform different functions based on the cube placing. The functionality is changed by simply flipping the cube on the table. The functionalities are humidity measurements, OMA notifications, and weather-forecasts. GyroCube uses vibration modules and LEDs as the output method to notify the user of changes.<br><br>
