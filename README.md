@@ -27,8 +27,8 @@ External components were used when designing the schematics
 [Wi-Fi Module](https://app.ultralibrarian.com/details/2b6afdaf-b24e-11ea-b5d0-0aebb021a1ea/Silicon-Labs/WFM200S022XNA2?uid=52bf9d8b68458d78)
 
 <b>Cube MCU</b>:<br>
-[Microcontroller](https://app.ultralibrarian.com/details/4b4afbe8-2e28-11eb-9033-0a34d6323d74/Microchip/PIC18F47K40-I-P?uid=9581580b9c884a46&exports=KiCAD&open=exports)
-[Gyroscope](https://app.ultralibrarian.com/details/68dbfc0c-1e52-11eb-9033-0a34d6323d74/STMicroelectronics/L3GD20H?uid=c097080110371f50)
+[Microcontroller](https://app.ultralibrarian.com/details/4b4afbe8-2e28-11eb-9033-0a34d6323d74/Microchip/PIC18F47K40-I-P?uid=9581580b9c884a46&exports=KiCAD&open=exports)<br>
+[Gyroscope](https://app.ultralibrarian.com/details/68dbfc0c-1e52-11eb-9033-0a34d6323d74/STMicroelectronics/L3GD20H?uid=c097080110371f50)<br>
 Humidity/Temperature sensor is custom. The library is cached in the respective folder.
 
 ### LED PCB design:
