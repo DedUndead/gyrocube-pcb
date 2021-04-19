@@ -19,6 +19,11 @@ The HUB acts as Zigbee coordinator/router, while the cubes are end devices of th
 ## PCB design description
 
 PCB design for the gyrocube IoT project. Consists of several parts: x6 RGB LED PCBs, cube's MCU and main hub's MCU.
+External components were used when designing the schematics
+
+<b>Hub PCB</b>: 
+[RF Tranciever (Zeigbee)](https://app.ultralibrarian.com/details/42fe3879-10a0-11e9-ab3a-0a3560a4cccc/Microchip/AT86RF231-ZU?uid=8d6b40c328af52ac)
+[Wi-Fi Module](https://app.ultralibrarian.com/details/2b6afdaf-b24e-11ea-b5d0-0aebb021a1ea/Silicon-Labs/WFM200S022XNA2?uid=52bf9d8b68458d78)
 
 ### LED PCB design:
 
