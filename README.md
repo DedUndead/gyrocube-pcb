@@ -23,8 +23,13 @@ External components were used when designing the schematics
 
 <b>Hub PCB</b>:<br>
 [Microcontroller](https://app.ultralibrarian.com/details/23afb9f1-10a0-11e9-ab3a-0a3560a4cccc/Microchip/PIC32MX575F512H-80I-PT?open=backlink)<br>
-[RF Tranciever (Zeigbee)](https://app.ultralibrarian.com/details/42fe3879-10a0-11e9-ab3a-0a3560a4cccc/Microchip/AT86RF231-ZU?uid=8d6b40c328af52ac)<br>
+[RF Tranciever (Zigbee)](https://app.ultralibrarian.com/details/42fe3879-10a0-11e9-ab3a-0a3560a4cccc/Microchip/AT86RF231-ZU?uid=8d6b40c328af52ac)<br>
 [Wi-Fi Module](https://app.ultralibrarian.com/details/2b6afdaf-b24e-11ea-b5d0-0aebb021a1ea/Silicon-Labs/WFM200S022XNA2?uid=52bf9d8b68458d78)
+
+<b>Cube MCU</b>:<br>
+[Microcontroller](https://app.ultralibrarian.com/details/4b4afbe8-2e28-11eb-9033-0a34d6323d74/Microchip/PIC18F47K40-I-P?uid=9581580b9c884a46&exports=KiCAD&open=exports)
+[Gyroscope](https://app.ultralibrarian.com/details/68dbfc0c-1e52-11eb-9033-0a34d6323d74/STMicroelectronics/L3GD20H?uid=c097080110371f50)
+Humidity/Temperature sensor is custom. The library is cached in the respective folder.
 
 ### LED PCB design:
 
