@@ -29,7 +29,8 @@ External components were used when designing the schematics
 <b>Cube MCU</b>:<br>
 [Microcontroller](https://app.ultralibrarian.com/details/4b4afbe8-2e28-11eb-9033-0a34d6323d74/Microchip/PIC18F47K40-I-P?uid=9581580b9c884a46&exports=KiCAD&open=exports)<br>
 [Gyroscope](https://app.ultralibrarian.com/details/68dbfc0c-1e52-11eb-9033-0a34d6323d74/STMicroelectronics/L3GD20H?uid=c097080110371f50)<br>
-Humidity/Temperature sensor is custom. The library is cached in the respective folder.
+Humidity/Temperature sensor is custom. The library is cached in the respective folder.<br>
+[Vibration coin](https://www.snapeda.com/parts/C0720B001F/Jinlong%20Machinery%20&amp;%20Electronics,%20Inc./view-part/)
 
 ### LED PCB design:
 
