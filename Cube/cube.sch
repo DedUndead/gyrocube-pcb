@@ -683,14 +683,10 @@ Wire Wire Line
 Wire Wire Line
 	9650 3200 12550 3200
 Connection ~ 12550 3200
-Text GLabel 9600 2750 0    50   Output ~ 0
+Text GLabel 9650 2850 0    50   Output ~ 0
 INT1
-Wire Wire Line
-	9600 2750 9750 2750
-Text GLabel 9600 2850 0    50   Output ~ 0
+Text GLabel 9650 2750 0    50   Output ~ 0
 DRDY_INT2
-Wire Wire Line
-	9600 2850 9750 2850
 $Comp
 L Connector:Conn_01x03_Male J?
 U 1 1 607FB043
@@ -1056,22 +1052,6 @@ F 3 "" H 14900 7250 50  0001 C CNN
 	1    14900 7250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Transistor_BJT:2N2219 Q1
-U 1 1 6093CC67
-P 13500 8350
-F 0 "Q1" H 13690 8396 50  0000 L CNN
-F 1 "2N2219" H 13690 8305 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-39-3" H 13700 8275 50  0001 L CIN
-F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 13500 8350 50  0001 L CNN
-	1    13500 8350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13600 8150 13600 7950
-Wire Wire Line
-	13600 7950 13900 7950
-Connection ~ 13900 7950
 Wire Wire Line
 	13600 8550 13600 8750
 $Comp
@@ -1888,4 +1868,27 @@ Wire Notes Line
 	11200 6500 11200 10500
 Wire Notes Line
 	6750 10600 6700 10600
+Wire Wire Line
+	9750 2750 9650 2750
+Wire Wire Line
+	9750 2850 9650 2850
+$Comp
+L pspice:MNMOS M?
+U 1 1 608A4C83
+P 13500 8350
+F 0 "M?" H 13788 8396 50  0000 L CNN
+F 1 "MNMOS" H 13788 8305 50  0000 L CNN
+F 2 "" H 13475 8350 50  0001 C CNN
+F 3 "~" H 13475 8350 50  0001 C CNN
+	1    13500 8350
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	13900 7950 13700 7950
+Connection ~ 13900 7950
+Wire Wire Line
+	13700 7950 13700 8150
+Wire Wire Line
+	13600 8150 13700 8150
+Connection ~ 13700 8150
 $EndSCHEMATC

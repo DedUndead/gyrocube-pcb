@@ -60,10 +60,8 @@ Wire Wire Line
 	4300 4800 6300 4800
 Connection ~ 5300 3000
 Wire Wire Line
-	5300 3000 7300 3000
+	5300 3000 6550 3000
 Connection ~ 6300 4800
-Wire Wire Line
-	6300 4800 7300 4800
 Wire Wire Line
 	7300 4050 7300 4800
 Wire Wire Line
@@ -73,22 +71,18 @@ Wire Wire Line
 Wire Wire Line
 	7300 3000 7300 3850
 Wire Wire Line
-	6300 4100 6300 4300
-Wire Wire Line
 	5300 3700 5300 3000
 $Comp
 L Device:C C1
 U 1 1 607F11E7
-P 6300 4450
-F 0 "C1" H 6415 4496 50  0000 L CNN
-F 1 "100 - 1000 uF" H 6415 4405 50  0000 L CNN
-F 2 "" H 6338 4300 50  0001 C CNN
-F 3 "~" H 6300 4450 50  0001 C CNN
-	1    6300 4450
+P 6550 3450
+F 0 "C1" H 6665 3496 50  0000 L CNN
+F 1 "100 - 1000 uF" H 6665 3405 50  0000 L CNN
+F 2 "" H 6588 3300 50  0001 C CNN
+F 3 "~" H 6550 3450 50  0001 C CNN
+	1    6550 3450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6300 4600 6300 4800
 Text Notes 5450 2800 0    118  ~ 0
 LED PCB
 Text Label 4100 3850 2    50   ~ 0
@@ -103,4 +97,18 @@ Text Label 7500 3950 0    50   ~ 0
 DATA
 Text Label 7500 4050 0    50   ~ 0
 5V
+Wire Wire Line
+	6300 4100 6300 4800
+Wire Wire Line
+	6550 3600 6550 4800
+Wire Wire Line
+	6300 4800 6550 4800
+Connection ~ 6550 4800
+Wire Wire Line
+	6550 4800 7300 4800
+Wire Wire Line
+	6550 3300 6550 3000
+Connection ~ 6550 3000
+Wire Wire Line
+	6550 3000 7300 3000
 $EndSCHEMATC
