@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name MCU_HUB)(type KiCad)(uri A:/University/GyrocubePCB/LIBS/HUB_libs/MCU/2021-04-25_12-04-57/footprints.pretty)(options "")(descr ""))
+  (lib (name WIFI)(type KiCad)(uri A:/University/GyrocubePCB/LIBS/HUB_libs/WIFI/2021-04-25_12-07-05/footprints.pretty)(options "")(descr ""))
+  (lib (name ZBEE)(type KiCad)(uri A:/University/GyrocubePCB/LIBS/HUB_libs/ZBEE/2021-04-25_12-05-59/footprints.pretty)(options "")(descr ""))
+)
