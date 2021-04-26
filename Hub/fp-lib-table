@@ -2,4 +2,7 @@
   (lib (name MCU_HUB)(type KiCad)(uri A:/University/GyrocubePCB/LIBS/HUB_libs/MCU/2021-04-25_12-04-57/footprints.pretty)(options "")(descr ""))
   (lib (name WIFI)(type KiCad)(uri A:/University/GyrocubePCB/LIBS/HUB_libs/WIFI/2021-04-25_12-07-05/footprints.pretty)(options "")(descr ""))
   (lib (name ZBEE)(type KiCad)(uri A:/University/GyrocubePCB/LIBS/HUB_libs/ZBEE/2021-04-25_12-05-59/footprints.pretty)(options "")(descr ""))
+  (lib (name funcMCU)(type KiCad)(uri A:/University/GyrocubePCB/LIBS/HUB_libs/funcMCU/KiCAD/2021-04-25_15-06-29/footprints.pretty)(options "")(descr ""))
+  (lib (name funcWIFI)(type KiCad)(uri A:/University/GyrocubePCB/LIBS/HUB_libs/funcWIFI/KiCAD/2021-04-25_15-07-15/footprints.pretty)(options "")(descr ""))
+  (lib (name funcZB)(type KiCad)(uri A:/University/GyrocubePCB/LIBS/HUB_libs/funcZB/KiCAD/2021-04-25_15-04-51/footprints.pretty)(options "")(descr ""))
 )
