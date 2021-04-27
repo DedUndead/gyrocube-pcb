@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name TempHumFootprint)(type KiCad)(uri A:/University/GyrocubePCB/Libraries/CUBE_libs/TempHumFootprint)(options "")(descr ""))
+)
